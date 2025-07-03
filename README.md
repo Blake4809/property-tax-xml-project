@@ -1,5 +1,12 @@
 # Property Tax XML Project (Mock)
 
+![Schema Validated](https://img.shields.io/badge/Schema-Validated-brightgreen)
+![Built with Oxygen](https://img.shields.io/badge/Built%20With-Oxygen%20XML%20Editor-blue)
+![Language](https://img.shields.io/badge/Language-XML%2FXSD-lightgrey)
+![Status](https://img.shields.io/badge/Project-Public-green)
+
+# Property Tax XML Project (Mock)
+
 This project simulates a simplified property tax reporting system used by Michigan counties to submit data to the State Treasury Department.
 
 ## 📂 Files Included
