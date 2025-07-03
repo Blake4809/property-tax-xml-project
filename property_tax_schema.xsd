@@ -1,0 +1,24 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <xs:element name="CountyReport">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="CountyName" type="xs:string"/>
+                <xs:element name="ReportDate" type="xs:date"/>
+                <xs:element name="Property" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="ParcelID" type="xs:string"/>
+                            <xs:element name="OwnerName" type="xs:string"/>
+                            <xs:element name="Address" type="xs:string"/>
+                            <xs:element name="AssessedValue" type="xs:decimal"/>
+                            <xs:element name="TaxAmount" type="xs:decimal"/>
+                            <xs:element name="Paid" type="xs:boolean"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+</xs:schema>

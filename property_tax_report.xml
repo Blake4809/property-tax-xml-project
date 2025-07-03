@@ -1,0 +1,25 @@
+<CountyReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="property_tax_schema.xsd">
+    <CountyName>Ingham</CountyName>
+    <ReportDate>2025-07-03</ReportDate>
+    
+    <Property>
+        <ParcelID>A12345</ParcelID>
+        <OwnerName>John Smith</OwnerName>
+        <Address>123 Maple St, Mason, MI</Address>
+        <AssessedValue>145000.00</AssessedValue>
+        <TaxAmount>2100.50</TaxAmount>
+        <Paid>true</Paid>
+    </Property>
+    
+    <Property>
+        <ParcelID>B67890</ParcelID>
+        <OwnerName>Jane Doe</OwnerName>
+        <Address>456 Oak Rd, Holt, MI</Address>
+        <AssessedValue>192500.00</AssessedValue>
+        <TaxAmount>2750.75</TaxAmount>
+        <Paid>false</Paid>
+    </Property>
+    
+</CountyReport>
+
